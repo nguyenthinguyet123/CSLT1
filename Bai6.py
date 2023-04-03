@@ -1,0 +1,8 @@
+a=input("Ho ten: ")
+b=int(input("So ngay cong: "))
+c=int(input("Don gia ngay cong: "))
+d=float(input("He so phu cap: "))
+e=int(input("Tam ung: "))
+l=float(b*c*d)
+t=float(l-e)
+print("Nhan vien "+str(a)+", Co tien luong="+"{0:.{1}f}".format(l,1)+", Tam ung="+str(e)+" va thuc linh="+"{0:.{1}f}".format(t,1))

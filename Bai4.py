@@ -1,0 +1,8 @@
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+x=float(a+b+c+d)
+y=float((a+b+c+d)/4)
+print("Tong="+"{0:.{1}f}".format(x,1))
+print("Trung binh cong="+"{0:.{1}f}".format(y,1))
