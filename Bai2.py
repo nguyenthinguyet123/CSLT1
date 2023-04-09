@@ -1,7 +1,11 @@
-r=int(input("Nhap vao ban kinh của duong tron: "))
-pi=3.14
-s=float(pi*r*r)
-c=float(2*r*pi)
-
-print("Dien tich cua duong tron co ban kinh "+str(int(r))+" la = "+"{0:.{1}f}".format(s,1))
-print("Chu vi cua duong tron co ban kinh "+str(int(r))+" la = "+"{0:.{1}f}".format(c,1))
+a=int(input("M1="))
+b=int(input("M2="))
+c=int(input("M3="))
+s=int(input("S="))
+if(1<=s<=100):
+    m=int(s*a)
+elif(101<=s<=150):
+    m=int(100*a+(s-100)*b)
+else:
+    m=int(100*a+50*b+(s-150)*c)
+print("Phai tra="+str(m))
